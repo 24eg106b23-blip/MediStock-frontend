@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:8080/api/medicines";
+const API_URL = "https://medistock-backend-uadz.onrender.com/api/medicines";
 
 function App() {
   const [medicines, setMedicines] = useState([]);
